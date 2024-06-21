@@ -14,4 +14,6 @@ These app having certain strict rule which must to follow
 - Method name be cap
 - file extension should be .jsx
 - in jsx we can only return one element at a time so if we want to return multiple tags we need to enclose those into single tag (called fragment < >  </>).
+
+**note : This project inject script tag using React-script dependency present in package.json file behind the dom and it is not visible to the original html file present in public folder. 
   

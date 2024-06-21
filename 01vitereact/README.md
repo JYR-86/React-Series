@@ -8,3 +8,10 @@ following steps to be done after this commd
 
 ### `npm run dev`
 This cmd is used to run the app created using vite
+
+These app having certain strict rule which must to follow
+- Attribute name must be capital
+- Method name be cap
+- file extension should be .jsx
+- in jsx we can only return one element at a time so if we want to return multiple tags we need to enclose those into single tag (called fragment < >  </>).
+  

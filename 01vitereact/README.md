@@ -5,3 +5,6 @@ following steps to be done after this commd
 - project name (xyz)
 - select framework (React)
 - select variant (JavaScript)
+
+### `npm run dev`
+This cmd is used to run the app created using vite

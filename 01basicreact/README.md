@@ -17,5 +17,4 @@ While deploying project only this folder is to share.
 
 Rule to follow
 - Use component name always capital
-- Use file extension .js
 

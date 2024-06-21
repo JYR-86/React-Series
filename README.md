@@ -1,7 +1,8 @@
 This is the complete project of React
 
 Theory
-Beginning:
+
+
 Q. Why to learn react?
 A. to build UI, make easy to manage and build complex frontend
 

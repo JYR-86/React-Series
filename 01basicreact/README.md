@@ -15,3 +15,7 @@ Used to make app deployment ready.
 It create an folder named build having three files css,html,js becz in the end browserr only understand these three only.
 While deploying project only this folder is to share.
 
+Rule to follow
+- Use component name always capital
+- Use file extension .js
+

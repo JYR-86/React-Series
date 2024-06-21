@@ -18,3 +18,5 @@ While deploying project only this folder is to share.
 Rule to follow
 - Use component name always capital
 
+**note : This project by default add script tag into html file called index.html to render js
+

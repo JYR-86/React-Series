@@ -1,0 +1,39 @@
+.main-box{
+    width: 30vw;
+    margin: auto;
+    border: 5px solid rgb(78, 86, 201);
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+.main-box h1{
+    color: aqua;
+    font-weight: 800;
+    text-align: center;
+}
+.main-box .top-box{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-box .top-box input{
+    width: 80%;
+    padding: 10px 0px;
+    border: 2px solid;
+    font-size: large;
+}
+.main-box .top-box button{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
+    font-weight: 500;
+    border: 2px solid;
+}
+.main-box .bottom-box{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    font-weight: 700;
+}
+

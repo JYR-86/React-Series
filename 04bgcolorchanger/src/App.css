@@ -1,0 +1,21 @@
+
+.outer-container{
+   width: 99vw;
+   height: 97vh;
+}
+.inner-container{
+    width: 30vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 30px;
+}
+button {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 30px;
+}

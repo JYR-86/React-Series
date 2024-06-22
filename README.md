@@ -26,3 +26,11 @@ Cons of react
 - No SEO
 - late browser rendring of js
 - no routing
+
+-------------------------------------------------------------------------------------------------------
+
+{ } --> evulated expression
+this take only result . we can't pass expression into this curly brasis
+we will pass the variable/prop inside this to render on browser
+
+bebal --> it is the transpiler present in he react which convert js and html into a tree structure and then render on browser

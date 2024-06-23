@@ -1,6 +1,6 @@
 <h1>Tailwind Setup</h1>
 - Create a react project <br/>
-### `npm create vite@latest my-project -- --template react`
+### `npm create vite@latest`
 ### `cd my-project`
 - Use the below cmd to add tailwind <br/>
 ### `npm install -D tailwindcss postcss autoprefixer`

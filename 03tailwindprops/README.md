@@ -1,11 +1,12 @@
 Tailwind Setup
+---------------
 - Create a react project
 ### `npm create vite@latest` 
 ### `cd my-project`
 - Use the below cmd to add tailwind 
 ### `npm install -D tailwindcss postcss autoprefixer`
 ### `npx tailwindcss init -p`
-- Make changes into the tailwind.config.js file
+- Make changes into the tailwind.config.js file <br/>
     export default {
         content: [
             "./index.html",
@@ -16,7 +17,7 @@ Tailwind Setup
         },
         plugins: [],
     }
-- Add below code at the top of index.css file
+- Add below code at the top of index.css file <br/>
     @tailwind base;
     @tailwind components;
     @tailwind utilities;

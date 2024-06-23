@@ -1,8 +1,31 @@
-# React + Vite
+<h1>Tailwind Setup</h1>
+- Create a react project
+`npm create vite@latest my-project -- --template react`
+`cd my-project`
+- Use the below cmd to add tailwind
+`npm install -D tailwindcss postcss autoprefixer`
+`npx tailwindcss init -p`
+- Make changes into the tailwind.config.js file
+    export default {
+        content: [
+            "./index.html",
+            "./src/**/*.{js,ts,jsx,tsx}",
+        ],
+        theme: {
+            extend: {},
+        },
+        plugins: [],
+    }
+- Add below code at the top of index.css file
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+- Finally run the app using
+`npm run dev`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-------------------------------------
+<h1>Props</h1>
 
-Currently, two official plugins are available:
+- props the the properties present in the react program to make state changes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+

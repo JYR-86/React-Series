@@ -25,8 +25,8 @@ Tailwind Setup
 ### `npm run dev`
 
 
-<h1>Props</h1>
-
+Props
+------------
 - props the the properties present in the react program to make state changes.
 
 

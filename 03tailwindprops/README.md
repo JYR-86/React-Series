@@ -1,10 +1,10 @@
 <h1>Tailwind Setup</h1>
 - Create a react project
-###`npm create vite@latest my-project -- --template react`
-###`cd my-project`
+### `npm create vite@latest my-project -- --template react`
+### `cd my-project`
 - Use the below cmd to add tailwind
-###`npm install -D tailwindcss postcss autoprefixer`
-###`npx tailwindcss init -p`
+### `npm install -D tailwindcss postcss autoprefixer`
+### `npx tailwindcss init -p`
 - Make changes into the tailwind.config.js file
     export default {
         content: [
@@ -21,7 +21,7 @@
     @tailwind components;
     @tailwind utilities;
 - Finally run the app using
-###`npm run dev`
+### `npm run dev`
 
 
 <h1>Props</h1>

@@ -1,8 +1,8 @@
-**Tailwind Setup
--Create a react project
-### `npm create vite@latest` <br/>
+Tailwind Setup
+- Create a react project
+### `npm create vite@latest` 
 ### `cd my-project`
-- Use the below cmd to add tailwind <br/>
+- Use the below cmd to add tailwind 
 ### `npm install -D tailwindcss postcss autoprefixer`
 ### `npx tailwindcss init -p`
 - Make changes into the tailwind.config.js file

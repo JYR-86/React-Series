@@ -5,10 +5,10 @@ import Card from './components/Card'
 function App() {
 
   let myObj = {
-    username:"Priya",
-    age:25
+    check:"always"
   }
   let myArr = [1,2,3]
+  let btnText
 
   return (
     <>
@@ -34,9 +34,10 @@ function App() {
   </div>
       </figure> */}
 
-      <Card uname="Priya" someObj={myObj} newArr={myArr} />
-      <Card uname="Harman"/>
-      {/* <Card uname="Meena"></Card>  this synatax is also possible */} 
+      <Card uname="Priya" btnText="clickMe"  someObj={myObj} newArr={myArr} />
+      <Card uname="Harman" btnText="visitMe"/>
+      {/* <Card uname="Meena"></Card>  this synatax is also possible */}
+      <Card uname="Kiran" ></Card> 
       
     </>
   )

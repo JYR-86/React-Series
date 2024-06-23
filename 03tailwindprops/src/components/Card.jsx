@@ -1,4 +1,4 @@
-function Card({someObj,uname,newArr}){
+function Card({someObj,uname,newArr,btnText="allowMe"}){
 
   // console.log(props)
   console.log(someObj);
@@ -20,7 +20,7 @@ function Card({someObj,uname,newArr}){
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, debitis?
         </p>
         <button className="mt-2 cursor-pointer items-center text-sm font-semibold text-white">
-          View Profile &rarr;
+          {btnText} &rarr;
         </button>
       </div>
     </div>

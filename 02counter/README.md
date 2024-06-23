@@ -4,7 +4,7 @@ These are used to change the state of an element or prop.
 These are predefined in react library so we just need to import these hooks.
 
 
-1. use of evalution expression - {}
+1. use of evalution expression - {}  <br/>
        - it is used to pass the prop in html. <br/>
 2. use one hook called useState() <br/>
        - this method takes one parameter as any value that is set as default  <br/>

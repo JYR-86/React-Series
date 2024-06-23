@@ -1,5 +1,5 @@
-<h1>Tailwind Setup</h1>
-Create a react project
+**Tailwind Setup
+-Create a react project
 ### `npm create vite@latest` <br/>
 ### `cd my-project`
 - Use the below cmd to add tailwind <br/>
